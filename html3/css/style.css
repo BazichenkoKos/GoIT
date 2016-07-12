@@ -1,0 +1,80 @@
+@font-face {
+	font-family:OpenSans;
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+
+body {
+	background-color: #f9f9f9;
+}
+.wrapper {
+	position: relative;
+	width: 1060px;
+	height: 100%;
+	display: block;
+	margin: 0px auto 0 auto;
+	padding: 50px 45px 50px 45px;
+	background-color: white;
+	border: 1px solid #dbdbdb;
+}
+
+/** HEADER **/
+header {
+	margin: 0 0 40px 0;
+}
+
+/** navigation **/
+nav ul {
+	height: 40px;
+	background-color: #555555;
+}
+nav li {
+	display: inline-block;
+	margin: 15px 85px 15px 0;
+	color: white;
+	font-size: 14.67px;
+}
+nav li:first-child {
+    margin-left: 15px;
+}
+
+/** section **/
+section {
+	margin:40px 0 0 0;
+}
+aside {
+	height: 100%;
+	margin: 0 40px 0 0;
+	float: left;
+}
+aside li {
+   border: 1px solid #c8c8c8;
+   font-size: 14px;
+   width: 240px;
+   padding: 15px 0 15px 20px;
+}
+article {
+	display: inline-block;
+	width: 700px;
+}
+p {
+	padding: 10px 10px 60px 10px;
+	text-align: left;
+}
+
+/** footer**/
+footer {
+	height: 40px;
+	background-color: #e1e1e1;
+}
+footer li {
+	display: inline-block;
+	margin: 15px 85px 15px 0;
+	font-size: 14.67px;
+}
+footer li:first-child {
+    margin-left: 15px;
+}
+footer li:last-child {
+	position: absolute;
+	right:0;
+}
